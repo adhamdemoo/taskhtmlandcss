@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* start navbar */
+
+body{
+    background-image: url("blue_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.left img{
+    margin-right:10px ;
+    margin-top: 20px;
+}
+.left a{
+    margin-right: 35px;
+    margin-top: 15px;
+    color: #000;
+}
+
+.none{
+    text-decoration: none;
+}
+   
+.right{
+    margin-top: 70px;
+    margin-right: 120px;
+
+}
+.right button{
+    padding: 5px 25px;
+    border-radius: 10px;
+    background-color: white ;
+}
+/* end navbar */
+
+/* start sec2 */
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+
+.sec2 .i1{
+    position: relative;
+    bottom: 50px;
+}
+
+.small{
+    margin-top: 140px;
+    
+    
+    
+}
+.small .h1{
+    direction: ltr;
+    font-size: 60px;
+    margin-left: 130px;
+   
+}
+.small .p1{
+    font-size: 29px;
+    direction: ltr;
+    margin-left: 130px;
+    
+}
+.sec2 .i2{
+    width: 270px;
+    position: absolute;
+    right: 250px;
+}
+
+.sec2 .i3{
+    width: 350px;
+    position: absolute;
+    top: 465px;
+    right: 210px;
+}
+.sec2 .i4{
+    width: 1400px;
+    position: absolute;
+    right: 340px;
+    top: 540px;
+}
+.b1{
+    color: blueviolet;
+}
+/* end sec2 */
+
+/* start sec3 */
+
+.sec3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.sec3 .divleft img{
+    margin-left: 80px;
+}
+
+.sec3 .divleft .h3{
+    text-align: center;
+    position: absolute;
+    left: 300px;
+}
+.sec3 .divleft .p2{
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: -310px;
+    left: 260px;
+}
+.sec3 .divleft .h4{
+    position: absolute;
+    left: 330px;
+    bottom:-530px;
+    color: white;
+    font-size: 18px;
+}
+.kud{
+    width: 300px;
+    margin-top: 170px; 
+    margin-right: 150px;
+
+}
+.sec3 .divleft .p3{
+    position: absolute;
+    bottom: -574px;
+    left: 330px;
+    font-size: 35px;
+    color: white;  
+}
+
+.div1{
+    position: relative;
+    right: 400px;
+    bottom: -130px;
+    
+}
+.h33{
+    text-align: center;
+    margin-right: 100px;
+
+
+}
+.p4{
+    text-align: center;
+    margin-top: 4px;
+    margin-left: -29px;
+    color: rgb(83, 83, 83);
+}
+
+.div2{
+    position: absolute;
+    bottom: -605px;
+    right: 340px;
+    text-align: center;
+}
+
+
+.div3 .font{
+    width:800px;
+    position: absolute;
+    left: 370px;
+    bottom: -450px;
+    z-index: -1;
+}
+/* end sec3 */
+
+/* start sec4 */
+ .sec4{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+
+ }
+
+ .div4{
+    text-align: center;
+    font-size: 14px;
+    
+ }
+ .leftdiv{
+    position: relative;
+    top: 170px;
+ }
+
+ .rightdiv{
+    position: relative;
+    top: 170px;
+ }
+ .im{
+    width: 530px;
+    position: relative;
+    top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+ }
+ .p7{
+    font-size:18px ;
+    margin-top: 16px;
+    width: 210px; 
+    position: absolute;
+    left: 640px;
+    color: rgb(112, 112, 112);
+ }
+
+ .h2{
+    color: rgb(80, 80, 80);
+ }
+
+ .div5{
+    position: absolute;
+    top: 1970px;
+    left: 480px;
+    color: rgb(129, 127, 127);
+ }
+ .div6{
+    position: absolute;
+    top: 1970px;
+    right: 480px;
+    color: rgb(129, 127, 127);
+ }
+/* end sec4 */
+
+/* start sec5 */
+
+.sec5{
+    background-image: url("Group\ 1131.png2.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img2{
+    width: 600px;
+    /* height: 390px; */
+    position: absolute;
+    right: 140px;
+    top: 2210px;
+}
+.a1 button{
+    padding-right: 120px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 11px;
+    padding-left: 6px; 
+     
+ 
+
+}
+.papple{
+    position: absolute;
+    bottom: 120px;
+    left: 54px;
+    font-size: 12px;
+}
+
+.pstore{
+    position: absolute;
+    bottom: 120px;
+    left: 230px;
+    font-size:12px ;
+}
+
+.art{
+    position: absolute;
+    left: 100px;
+    top: 2450px;
+    
+}
+.d1{
+
+    margin-bottom: 17px;
+    
+}
+
+.c{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+.img3{
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
